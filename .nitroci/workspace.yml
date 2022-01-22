@@ -1,0 +1,11 @@
+version: 1
+workspace:
+  id: 61082991549240a797e804da93ed3f11
+  name: nitroci-plugins-bitbucket
+commands:
+  - name: build
+    description: Build the command line.
+    steps:
+      - cwd: .
+        scripts: 
+          - go build -o ./dist .
