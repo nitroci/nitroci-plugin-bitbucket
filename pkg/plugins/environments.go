@@ -20,6 +20,6 @@ import (
 	//"github.com/nitroci/nitroci-plugin-core/pkg/plugins"
 )
 
-func OnEnvironments(context contexts.RuntimeContext, args []string, fields map[string]interface{}) {
+func OnEnvironments(context *contexts.RuntimeContext, args []string, fields map[string]interface{}) {
 	
 }

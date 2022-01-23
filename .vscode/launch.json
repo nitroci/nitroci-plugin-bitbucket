@@ -12,7 +12,7 @@
             "mode": "auto",
             "program": "./main.go",
             "args": [
-                "configure", "--profile", "nitro", "-v"
+                "configure", "--profile", "nitro", "-v", "--bitbucket-workspace", "nitroagility", "--bitbucket-user", "francesco.gallo", "--bitbucket-pass", "pa$$w0rd"
             ]
         }
     ]

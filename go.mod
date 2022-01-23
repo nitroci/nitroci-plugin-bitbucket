@@ -3,8 +3,8 @@ module github.com/nitroci/nitroci-plugin-bitbucket
 go 1.17
 
 require (
-	github.com/nitroci/nitroci-core v0.0.0-20220123213635-86afc2dcc091
-	github.com/nitroci/nitroci-plugin-core v0.0.0-20220123213828-aeefcb07c280
+	github.com/nitroci/nitroci-core v0.0.0-20220123221545-820c85bd356b
+	github.com/nitroci/nitroci-plugin-core v0.0.0-20220123221726-42d7550355ad
 )
 
 require (
