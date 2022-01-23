@@ -3,12 +3,14 @@ module github.com/nitroci/nitroci-plugin-bitbucket
 go 1.17
 
 require (
-	github.com/google/uuid v1.3.0
-	github.com/manifoldco/promptui v0.9.0
-	github.com/spf13/cobra v1.3.0
-	github.com/spf13/viper v1.10.1
-	gopkg.in/yaml.v2 v2.4.0
+	github.com/google/uuid v1.3.0 // indirect
+	github.com/manifoldco/promptui v0.9.0 // indirect
+	github.com/spf13/cobra v1.3.0 // indirect
+	github.com/spf13/viper v1.10.1 // indirect
+	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+require github.com/nitroci/nitroci-plugin-core v0.0.0-20220123163936-150fb39c9e12
 
 require (
 	cloud.google.com/go v0.99.0 // indirect
@@ -31,7 +33,6 @@ require (
 	github.com/magiconair/properties v1.8.5 // indirect
 	github.com/mitchellh/mapstructure v1.4.3 // indirect
 	github.com/nitroci/nitroci-core v0.0.0-20220123092705-35f2c0900354 // indirect
-	github.com/nitroci/nitroci-plugin-core v0.0.0-20220123163936-150fb39c9e12 // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
 	github.com/spf13/afero v1.7.0 // indirect
 	github.com/spf13/cast v1.4.1 // indirect

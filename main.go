@@ -15,8 +15,17 @@ limitations under the License.
 */
 package main
 
-import "github.com/nitroci/nitroci-plugin-bitbucket/pkg/cmd"
+import (
+	"github.com/nitroci/nitroci-plugin-core/pkg/plugins"
+	"github.com/nitroci/nitroci-plugin-core/pkg/cmd"
+	bitbucket "github.com/nitroci/nitroci-plugin-bitbucket/pkg/plugins"
+)
 
 func main() {
+	plugins.PluginModule = &plugins.Plugin{
+		Configure: bitbucket.OnConfigure,
+		Environments: bitbucket.OnEnvironments,
+		Pipelines: bitbucket.OnPipelines,
+	}
 	cmd.Execute()
 }
