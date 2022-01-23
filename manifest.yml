@@ -4,14 +4,18 @@ operations:
     configure:
         enabled: true
         flags:
-            - name: user
-              shorthand: u
+            - name: bitbucket-workspace
+              shorthand:
               type: string
-              usage: username
-            - name: pass
-              shorthand: p
+              usage: bitbucket workspace
+            - name: bitbucket-user
+              shorthand:
               type: string
-              usage: password
+              usage: bitbucket user
+            - name: bitbucket-pass
+              shorthand:
+              type: string
+              usage: bitbucket password
     environments:
         enabled: true
     pipelines:
