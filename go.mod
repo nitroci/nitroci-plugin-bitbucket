@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/nitroci/nitroci-core v0.0.0-20220123223815-67ae29162cbe
-	github.com/nitroci/nitroci-plugin-core v0.0.0-20220124172127-4e2f4453216a
+	github.com/nitroci/nitroci-plugin-core v0.0.0-20220124173217-7aacfbf9822d
 )
 
 require (
