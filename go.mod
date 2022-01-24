@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	github.com/nitroci/nitroci-core v0.0.0-20220123223815-67ae29162cbe
-	github.com/nitroci/nitroci-plugin-core v0.0.0-20220123224025-39b5c99a615f
+	github.com/nitroci/nitroci-plugin-core v0.0.0-20220124172127-4e2f4453216a
 )
 
 require (
@@ -29,7 +29,3 @@ require (
 	gopkg.in/ini.v1 v1.66.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
-
-replace github.com/nitroci/nitroci-core => /Users/nicolagallo/source/nitroci/nitroci-workspace/repos/nitroci-core
-
-replace github.com/nitroci/nitroci-plugin-core => /Users/nicolagallo/source/nitroci/nitroci-workspace/repos/nitroci-plugin-core
