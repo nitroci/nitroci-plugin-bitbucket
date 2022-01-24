@@ -285,12 +285,16 @@ github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjY
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 github.com/nitroci/nitroci-core v0.0.0-20220123223815-67ae29162cbe h1:jk8Ng7b4YlJVq5mZ9oA/yYuT82FjlcyP1f7TGbbrjCc=
 github.com/nitroci/nitroci-core v0.0.0-20220123223815-67ae29162cbe/go.mod h1:jJ958t/stTW2S2QZNKDVZdaQgJ7GYmUfzlT2cIy727o=
+github.com/nitroci/nitroci-core v0.0.0-20220124190002-114167d63f42 h1:0DgNodidG5q0oS9L/EzpM14BFA2Raw1AQBK59WkZolo=
+github.com/nitroci/nitroci-core v0.0.0-20220124190002-114167d63f42/go.mod h1:jJ958t/stTW2S2QZNKDVZdaQgJ7GYmUfzlT2cIy727o=
 github.com/nitroci/nitroci-plugin-core v0.0.0-20220123224025-39b5c99a615f h1:jyKrHAfHhJ82h4PSA2tEXMpdJlHddajp529uU9O781U=
 github.com/nitroci/nitroci-plugin-core v0.0.0-20220123224025-39b5c99a615f/go.mod h1:E2BM/TpOGklLXeHIwZZ644DSfQ7P/tlE9tc5i8eDikY=
 github.com/nitroci/nitroci-plugin-core v0.0.0-20220124172127-4e2f4453216a h1:mMJvRmi4Wfwar+iKQlMOKF7c4RKYqdd1ZKezpR0mHDQ=
 github.com/nitroci/nitroci-plugin-core v0.0.0-20220124172127-4e2f4453216a/go.mod h1:E2BM/TpOGklLXeHIwZZ644DSfQ7P/tlE9tc5i8eDikY=
 github.com/nitroci/nitroci-plugin-core v0.0.0-20220124173217-7aacfbf9822d h1:qu7z0anharNWM1OuxLie+M4N4Nz7ksRUkJBIeh+y2x0=
 github.com/nitroci/nitroci-plugin-core v0.0.0-20220124173217-7aacfbf9822d/go.mod h1:E2BM/TpOGklLXeHIwZZ644DSfQ7P/tlE9tc5i8eDikY=
+github.com/nitroci/nitroci-plugin-core v0.0.0-20220124190315-49cdb5fae8d3 h1:ZKNdQcqp+NsuwXT4bQw5BYqNE6eS/JCgZkWOLOXb2Ps=
+github.com/nitroci/nitroci-plugin-core v0.0.0-20220124190315-49cdb5fae8d3/go.mod h1:oYgIszVTbQ9rMCKhCW7B1YJPIcDQygmHTp55TrRGJRo=
 github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pascaldekloe/goe v0.1.0/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pelletier/go-toml v1.9.4 h1:tjENF6MfZAg8e4ZmZTeWaWiT2vXtsoO6+iuOjFhECwM=
