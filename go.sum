@@ -283,10 +283,10 @@ github.com/modern-go/reflect2 v0.0.0-20180701023420-4b7aa43c6742/go.mod h1:bx2lN
 github.com/modern-go/reflect2 v1.0.1/go.mod h1:bx2lNnkwVCuqBIxFjflWJWanXIb3RllmbCylyMrvgv0=
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
-github.com/nitroci/nitroci-core v0.0.0-20220124190002-114167d63f42 h1:0DgNodidG5q0oS9L/EzpM14BFA2Raw1AQBK59WkZolo=
-github.com/nitroci/nitroci-core v0.0.0-20220124190002-114167d63f42/go.mod h1:jJ958t/stTW2S2QZNKDVZdaQgJ7GYmUfzlT2cIy727o=
-github.com/nitroci/nitroci-plugin-core v0.0.0-20220124190315-49cdb5fae8d3 h1:ZKNdQcqp+NsuwXT4bQw5BYqNE6eS/JCgZkWOLOXb2Ps=
-github.com/nitroci/nitroci-plugin-core v0.0.0-20220124190315-49cdb5fae8d3/go.mod h1:oYgIszVTbQ9rMCKhCW7B1YJPIcDQygmHTp55TrRGJRo=
+github.com/nitroci/nitroci-core v0.0.0-20220129194606-7435ef409224 h1:ll8IkD7dkzLjrUm7gGh6zKw5WriM2l8fconshZUF55o=
+github.com/nitroci/nitroci-core v0.0.0-20220129194606-7435ef409224/go.mod h1:jJ958t/stTW2S2QZNKDVZdaQgJ7GYmUfzlT2cIy727o=
+github.com/nitroci/nitroci-plugin-core v0.0.0-20220129194738-eee10e572f31 h1:szV+3bkB4s8NJqxgiVoM1MJhPfFy0p/EJw4KTGopFuI=
+github.com/nitroci/nitroci-plugin-core v0.0.0-20220129194738-eee10e572f31/go.mod h1:SDc3bYFr87a+7uOPcsohfBaQdFwBiGMMrNRqmJ47s6I=
 github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pascaldekloe/goe v0.1.0/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=
 github.com/pelletier/go-toml v1.9.4 h1:tjENF6MfZAg8e4ZmZTeWaWiT2vXtsoO6+iuOjFhECwM=

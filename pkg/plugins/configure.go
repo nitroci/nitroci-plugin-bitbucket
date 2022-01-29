@@ -16,8 +16,9 @@ limitations under the License.
 package plugins
 
 import (
+	"github.com/nitroci/nitroci-core/pkg/core/configs"
 	"github.com/nitroci/nitroci-core/pkg/core/contexts"
-	"github.com/nitroci/nitroci-core/pkg/core/config"
+	"github.com/nitroci/nitroci-core/pkg/core/terminal"
 )
 
 func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[string]interface{}) {
@@ -27,7 +28,7 @@ func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[str
 		domain = fields["bitbucket-workspace"].(string)
 	}
 	if len(domain) == 0 {
-		domain, _ = config.PromptGlobalConfigKey(context.Cli.Profile, "Workspace", false)
+		domain, _ = terminal.PromptGlobalConfigKey(context.Cli.Profile, "Workspace", false)
 	}
 	config.SetGlobalConfigString(context.Cli.Profile, "bitbucket_workspace", domain)
 	// Persist the username
@@ -36,7 +37,7 @@ func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[str
 		username = fields["bitbucket-user"].(string)
 	}
 	if len(username) == 0 {
-		username, _  = config.PromptGlobalConfigKey(context.Cli.Profile, "Username", false)
+		username, _ = terminal.PromptGlobalConfigKey(context.Cli.Profile, "Username", false)
 	}
 	config.SetGlobalConfigString(context.Cli.Profile, "bitbucket_username", username)
 	// Persist application password
@@ -45,7 +46,7 @@ func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[str
 		password = fields["bitbucket-pass"].(string)
 	}
 	if len(password) == 0 {
-		password, _ = config.PromptGlobalConfigKey(context.Cli.Profile, "Password", true)
+		password, _ = terminal.PromptGlobalConfigKey(context.Cli.Profile, "Password", true)
 		config.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
 	}
 	config.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
