@@ -30,7 +30,7 @@ func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[str
 	if len(domain) == 0 {
 		domain, _ = terminal.PromptGlobalConfigKey(context.Cli.Profile, "Workspace", false)
 	}
-	config.SetGlobalConfigString(context.Cli.Profile, "bitbucket_workspace", domain)
+	configs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_workspace", domain)
 	// Persist the username
 	var username string
 	if fields["bitbucket-workspace"] != nil {
@@ -39,7 +39,7 @@ func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[str
 	if len(username) == 0 {
 		username, _ = terminal.PromptGlobalConfigKey(context.Cli.Profile, "Username", false)
 	}
-	config.SetGlobalConfigString(context.Cli.Profile, "bitbucket_username", username)
+	configs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_username", username)
 	// Persist application password
 	var password string
 	if fields["bitbucket-pass"] != nil {
@@ -47,7 +47,7 @@ func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[str
 	}
 	if len(password) == 0 {
 		password, _ = terminal.PromptGlobalConfigKey(context.Cli.Profile, "Password", true)
-		config.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
+		configs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
 	}
-	config.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
+	configs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
 }
