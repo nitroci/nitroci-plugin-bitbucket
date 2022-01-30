@@ -16,16 +16,16 @@ limitations under the License.
 package main
 
 import (
-	"github.com/nitroci/nitroci-cobra-plugin-core/pkg/cmd"
-	"github.com/nitroci/nitroci-cobra-plugin-core/pkg/plugins"
+	pkgCCPCmd "github.com/nitroci/nitroci-cobra-plugin-core/pkg/cmd"
+	pkgCCPPlugins "github.com/nitroci/nitroci-cobra-plugin-core/pkg/core/plugins"
 	bitbucket "github.com/nitroci/nitroci-plugin-bitbucket/pkg/plugins"
 )
 
 func main() {
-	plugins.PluginModule = &plugins.Plugin{
+	pkgCCPPlugins.PluginModule = &pkgCCPPlugins.Plugin{
 		Configure: bitbucket.OnConfigure,
 		Environments: bitbucket.OnEnvironments,
 		Pipelines: bitbucket.OnPipelines,
 	}
-	cmd.Execute()
+	pkgCCPCmd.Execute()
 }
