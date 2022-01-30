@@ -285,8 +285,8 @@ github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjY
 github.com/mwitkow/go-conntrack v0.0.0-20161129095857-cc309e4a2223/go.mod h1:qRWi+5nqEBWmkhHvq77mSJWrCKwh8bxhgT7d/eI7P4U=
 github.com/nitroci/nitroci-cobra-core v0.0.0-20220130155620-26bb8171c1d0 h1:L2xNFyo989q+1sR7VnFN2Fj4S5cD8GM5lrQiFv/n7RY=
 github.com/nitroci/nitroci-cobra-core v0.0.0-20220130155620-26bb8171c1d0/go.mod h1:b5Y3YBWUqXbPG3+bf79eASr7ffB2X2jA4U7JSwcGpNo=
-github.com/nitroci/nitroci-cobra-plugin-core v0.0.0-20220130163429-0d3ebb9ea2bd h1:+kdgITA9xSs/wlGDFKwp7nVrkxc9J2a0t8AEQUiXN3o=
-github.com/nitroci/nitroci-cobra-plugin-core v0.0.0-20220130163429-0d3ebb9ea2bd/go.mod h1:QW8FFLJEFvhP/tOSvlAr6t3OMX51/Cl6TEFgp235KFI=
+github.com/nitroci/nitroci-cobra-plugin-core v0.0.0-20220130164533-c3e5fb9062a1 h1:8Du7QUbUfhbQjukcmZl44GolSKSwOch3u7jjyj4VS6E=
+github.com/nitroci/nitroci-cobra-plugin-core v0.0.0-20220130164533-c3e5fb9062a1/go.mod h1:QW8FFLJEFvhP/tOSvlAr6t3OMX51/Cl6TEFgp235KFI=
 github.com/nitroci/nitroci-core v0.0.0-20220130154546-7069bfc3c8fb h1:HCfo3mIACwrIrxmKQgJR45OSgnT81J7kPcta5zIuu/s=
 github.com/nitroci/nitroci-core v0.0.0-20220130154546-7069bfc3c8fb/go.mod h1:jJ958t/stTW2S2QZNKDVZdaQgJ7GYmUfzlT2cIy727o=
 github.com/pascaldekloe/goe v0.0.0-20180627143212-57f6aae5913c/go.mod h1:lzWF7FIEvWOWxwDKqyGYQf6ZUaNfKdP144TG7ZOy1lc=

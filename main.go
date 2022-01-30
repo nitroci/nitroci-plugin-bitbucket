@@ -18,14 +18,14 @@ package main
 import (
 	pkgCCPCmd "github.com/nitroci/nitroci-cobra-plugin-core/pkg/cmd"
 	pkgCCPPlugins "github.com/nitroci/nitroci-cobra-plugin-core/pkg/core/plugins"
-	bitbucket "github.com/nitroci/nitroci-plugin-bitbucket/pkg/plugins"
+	pkgPlugins "github.com/nitroci/nitroci-plugin-bitbucket/pkg/plugins"
 )
 
 func main() {
 	pkgCCPPlugins.PluginModule = &pkgCCPPlugins.Plugin{
-		Configure: bitbucket.OnConfigure,
-		Environments: bitbucket.OnEnvironments,
-		Pipelines: bitbucket.OnPipelines,
+		Configure: pkgPlugins.OnConfigure,
+		Environments: pkgPlugins.OnEnvironments,
+		Pipelines: pkgPlugins.OnPipelines,
 	}
 	pkgCCPCmd.Execute()
 }

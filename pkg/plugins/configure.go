@@ -16,38 +16,38 @@ limitations under the License.
 package plugins
 
 import (
-	"github.com/nitroci/nitroci-core/pkg/core/configs"
-	"github.com/nitroci/nitroci-core/pkg/core/contexts"
-	"github.com/nitroci/nitroci-core/pkg/core/terminal"
+	pkgCConfigs "github.com/nitroci/nitroci-core/pkg/core/configs"
+	pkgCContexts "github.com/nitroci/nitroci-core/pkg/core/contexts"
+	pkgCTerminal "github.com/nitroci/nitroci-core/pkg/core/terminal"
 )
 
-func OnConfigure(context *contexts.RuntimeContext, args []string, fields map[string]interface{}) {
+func OnConfigure(context *pkgCContexts.RuntimeContext, args []string, fields map[string]interface{}) {
 	// Persist the domain
 	var domain string
 	if fields["bitbucket-workspace"] != nil {
 		domain = fields["bitbucket-workspace"].(string)
 	}
 	if len(domain) == 0 {
-		domain, _ = terminal.PromptGlobalConfigKey(context.Cli.Profile, "Workspace", false)
+		domain, _ = pkgCTerminal.PromptGlobalConfigKey(context.Cli.Profile, "Workspace", false)
 	}
-	configs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_workspace", domain)
+	pkgCConfigs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_workspace", domain)
 	// Persist the username
 	var username string
 	if fields["bitbucket-workspace"] != nil {
 		username = fields["bitbucket-user"].(string)
 	}
 	if len(username) == 0 {
-		username, _ = terminal.PromptGlobalConfigKey(context.Cli.Profile, "Username", false)
+		username, _ = pkgCTerminal.PromptGlobalConfigKey(context.Cli.Profile, "Username", false)
 	}
-	configs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_username", username)
+	pkgCConfigs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_username", username)
 	// Persist application password
 	var password string
 	if fields["bitbucket-pass"] != nil {
 		password = fields["bitbucket-pass"].(string)
 	}
 	if len(password) == 0 {
-		password, _ = terminal.PromptGlobalConfigKey(context.Cli.Profile, "Password", true)
-		configs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
+		password, _ = pkgCTerminal.PromptGlobalConfigKey(context.Cli.Profile, "Password", true)
+		pkgCConfigs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
 	}
-	configs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
+	pkgCConfigs.SetGlobalConfigString(context.Cli.Profile, "bitbucket_secret", password)
 }

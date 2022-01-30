@@ -16,9 +16,9 @@ limitations under the License.
 package plugins
 
 import (
-	"github.com/nitroci/nitroci-core/pkg/core/contexts"
+	pkgCContexts "github.com/nitroci/nitroci-core/pkg/core/contexts"
 )
 
-func OnEnvironments(context *contexts.RuntimeContext, args []string, fields map[string]interface{}) {
+func OnEnvironments(context *pkgCContexts.RuntimeContext, args []string, fields map[string]interface{}) {
 
 }
