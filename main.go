@@ -16,6 +16,7 @@ limitations under the License.
 package main
 
 import (
+	"github.com/nitroci/nitroci-cobra-plugin-core/pkg/cmd"
 	"github.com/nitroci/nitroci-cobra-plugin-core/pkg/plugins"
 	bitbucket "github.com/nitroci/nitroci-plugin-bitbucket/pkg/plugins"
 )
